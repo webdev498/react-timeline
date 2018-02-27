@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Timeline from './Components/timeline'
-import './index.scss';
+import Timeline from './Components/Timeline/timeline'
   
   ReactDOM.render(
-    <Timeline />,
+    <Timeline position="right"/>,
     document.getElementById('root')
   );
   
