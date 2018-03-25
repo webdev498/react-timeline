@@ -27,9 +27,7 @@ class Timeline extends React.Component {
     return (
       <div className="timline-container">
         <VerticalTimeline className="movie-timeline-component">
-          <VerticalTimelineElement className="movie-timeline-element" position={ position } iconStyle={ IconStyle } >
-            TODAY
-          </VerticalTimelineElement>
+          
 
           {
             moviesArray
@@ -50,6 +48,12 @@ class Timeline extends React.Component {
           <VerticalTimelineElement className="movie-timeline-element" position={ position } iconStyle={ IconStyle } >
             12/24/18
           </VerticalTimelineElement>
+
+          <VerticalTimelineElement className="movie-timeline-element" position={ position } iconStyle={ IconStyle } >
+            TODAY
+          </VerticalTimelineElement>
+
+          
         </VerticalTimeline>
       </div>
     );
